@@ -12,7 +12,7 @@ Architected governance from day one for California K-12: PII detection (7 patter
 - 5-dimension Trust Scorecard (Contract Clarity, Idempotency, Observability, Error Containment, Governance)
 - TL0-TL4 autonomy gates (Draft → Manual → Sandbox → Supervised → Autonomous)
 - 7 write gates for memory governance (PII, provenance, type, dedup, ABAC, size, injection)
-- 62 agents scored, 3 production-ready (≥28/34 score) (verified: Evaluations/Agents/_leaderboard.md:19-20)
+- 62 agents scored using 10-dimension rubric (34 points total)
 - FERPA/COPPA compliance mechanisms (PII redaction, RLS policies, audit trails)
 
 ---
@@ -109,9 +109,9 @@ Observability:
 
 **Impact:**
 - 62 agents scored using 10-dimension rubric (34 total points)
-- 3 agents production-ready (planner, researcher, reviewer at 28/34)
 - Objective criteria replace subjective "it works" claims
 - Autonomy progression gated by evidence, not promises
+- Threshold-based gates prevent unproven agents from running unsupervised
 
 **Tech Stack:** TypeScript, Python, JSON Schema, OpenTelemetry
 **Location:** `docs/MASTERS/35-trust-scorecard.md`, `Evaluations/Agents/`

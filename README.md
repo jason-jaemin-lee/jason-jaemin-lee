@@ -30,9 +30,9 @@ Competitive intel, market research, outreach automation
 
 ### **[✅ Evaluation & Testing](./EVALS.md)**
 10-dimension eval framework, 34-point rubric
-- 62 agents scored, 3 production-ready (≥28/34)
+- 62 agents scored across 13 tiers
 - 5-dimension Trust Scorecard (TL0-TL4)
-- 10-dimension prompt audit rubric
+- Adversarial testing with golden fixtures
 
 ### **[🔒 Governance & Compliance](./GOVERNANCE.md)** ✅
 FERPA/COPPA, audit trails, trust scoring
