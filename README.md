@@ -29,10 +29,10 @@ Competitive intel, market research, outreach automation
 - 66ms routing latency
 
 ### **[✅ Evaluation & Testing](./EVALS.md)**
-10-dimension eval framework, 300+ automated checks
-- 63 agents scored, 28 production-ready
-- 300+ automated checks (Trust Scorecard)
-- TL0-TL4 autonomy levels
+10-dimension eval framework, 34-point rubric
+- 62 agents scored, 3 production-ready (≥28/34)
+- 5-dimension Trust Scorecard (TL0-TL4)
+- 10-dimension prompt audit rubric
 
 ### **[🔒 Governance & Compliance](./GOVERNANCE.md)** ✅
 FERPA/COPPA, audit trails, trust scoring

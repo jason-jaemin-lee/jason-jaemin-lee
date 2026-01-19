@@ -12,14 +12,14 @@ Architected governance from day one for California K-12: PII detection (7 patter
 - 5-dimension Trust Scorecard (Contract Clarity, Idempotency, Observability, Error Containment, Governance)
 - TL0-TL4 autonomy gates (Draft → Manual → Sandbox → Supervised → Autonomous)
 - 7 write gates for memory governance (PII, provenance, type, dedup, ABAC, size, injection)
-- 438 components measured (verified: SESSION-2026-01-19.md:293)
+- 62 agents scored, 3 production-ready (≥28/34 score) (verified: Evaluations/Agents/_leaderboard.md:19-20)
 - FERPA/COPPA compliance mechanisms (PII redaction, RLS policies, audit trails)
 
 ---
 
 ## Opening Hook
 
-K-12 means FERPA, COPPA, PII redaction, and 7-year audit trails—non-negotiable. I architected governance from day one: read-time ABAC filtering prevents unauthorized memory access, immutable logs with chain hashing provide tamper detection, and the Trust Scorecard framework enforces that no agent runs unsupervised until it proves reliability across 300+ checks. Trust isn't theater; it's a 5-dimensional scoring system that gates autonomy progression (TL0 → TL4) with evidence at every level.
+K-12 means FERPA, COPPA, PII redaction, and 7-year audit trails—non-negotiable. I architected governance from day one: read-time ABAC filtering prevents unauthorized memory access, immutable logs with chain hashing provide tamper detection, and the Trust Scorecard framework enforces that no agent runs unsupervised until it scores ≥70 across 5 dimensions (34 points total). Trust isn't theater; it's a measurable scoring system that gates autonomy progression (TL0 → TL4) with evidence at every level.
 
 ---
 
@@ -108,8 +108,8 @@ Observability:
 | Governance | Lily L (Librarian) | Human audit: owner, changelog, review | On release |
 
 **Impact:**
-- 438 components measured (63 agents, 72 skills, 6 workflows)
-- 28 agents production-ready (TL3+)
+- 62 agents scored using 10-dimension rubric (34 total points)
+- 3 agents production-ready (planner, researcher, reviewer at 28/34)
 - Objective criteria replace subjective "it works" claims
 - Autonomy progression gated by evidence, not promises
 
