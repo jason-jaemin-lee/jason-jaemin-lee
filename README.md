@@ -34,11 +34,11 @@ Competitive intel, market research, outreach automation
 - 300+ automated checks (Trust Scorecard)
 - TL0-TL4 autonomy levels
 
-### **[🔒 Governance & Compliance](./GOVERNANCE.md)**
+### **[🔒 Governance & Compliance](./GOVERNANCE.md)** ✅
 FERPA/COPPA, audit trails, trust scoring
-- PII redaction (7 patterns), RLS policies
-- 7-year audit retention (S3 Glacier cold storage)
-- Read-time ABAC filtering
+- Trust Scorecard (5 dimensions, TL0-TL4)
+- 7 write gates for memory governance
+- FERPA-compliant audit logging (chain hashing)
 
 ---
 
