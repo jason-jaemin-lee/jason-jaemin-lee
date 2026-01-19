@@ -347,7 +347,7 @@ TL4 (90-100): Trusted       → Full autonomy, cross-system
 
 K-12 is one of the hardest domains for AI governance. Let's discuss applying these patterns to your industry.
 
-**Contact:** [jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) | [LinkedIn](https://linkedin.com/in/jason-jaemin-lee)
+**Contact:** [jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) | [LinkedIn](https://linkedin.com/in/jason-lee-60537831)
 
 **Portfolio:** [jason-j-lee.com](https://jason-j-lee.com) - See all 25+ projects in interactive bento grid
 

@@ -221,7 +221,7 @@ Claude Code → 18 lazy-* proxies → Profile-scoped allowlists → MCP servers 
 
 The architecture diagrams only scratch the surface. Let's discuss scaling AI orchestration at your company.
 
-**Contact:** [jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) | [LinkedIn](https://linkedin.com/in/jason-jaemin-lee)
+**Contact:** [jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) | [LinkedIn](https://linkedin.com/in/jason-lee-60537831)
 
 **Portfolio:** [jason-j-lee.com](https://jason-j-lee.com) - See all 25+ projects in interactive bento grid
 

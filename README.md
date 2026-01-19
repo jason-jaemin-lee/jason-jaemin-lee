@@ -50,7 +50,7 @@ See everything at [jason-j-lee.com](https://jason-j-lee.com)
 
 ## 📫 Contact
 
-[jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) | [LinkedIn](https://linkedin.com/in/jason-jaemin-lee)
+[jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) | [LinkedIn](https://linkedin.com/in/jason-lee-60537831)
 
 ---
 
