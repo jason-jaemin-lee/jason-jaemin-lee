@@ -88,18 +88,18 @@ Teacher reviews → Approves/modifies → Delivers to student with context
 
 ---
 
-### 2. Spiraly (Adaptive Learning with Hybrid IRT+DRL)
+### 2. Spiraly (Adaptive Learning with Knowledge Tracing + DRL)
 
 **Problem:** Most adaptive learning systems treat students as data points. After a wrong answer, the system says "you're not ready for this" or "you got lucky." No learning theory, no agency.
 
 **Solution:** Built hybrid scheduling engine combining:
-- **Item Response Theory (IRT):** Probabilistic difficulty calibration (3-parameter logistic model)
-- **Deep Reinforcement Learning (DRL):** Policy gradient optimization to maximize learning gain per session
+- **Knowledge Tracing (simpleKT):** Transformer-based model for probabilistic mastery estimation
+- **Deep Reinforcement Learning (DRL-SRS):** Policy gradient optimization to maximize learning gain per session
 - **Student agency:** 3 scheduling modes (System Suggested, Student Choice, Hybrid)
 
 **Architecture:**
 ```
-Student performance history → IRT calibration → Item difficulty/discrimination
+Student performance history → simpleKT mastery estimation → Item difficulty/discrimination
    ↓
 Reinforcement learning policy: What item sequence maximizes expected learning?
    ↓
@@ -108,11 +108,11 @@ Student sees:
   👤 "Pick your own path"
   ⚖️ "Balanced" (system + student input)
    ↓
-Item delivered → Student responds → New IRT parameters → Loop
+Item delivered → Student responds → Updated knowledge state → Loop
 ```
 
 **Key Features:**
-- **Hybrid IRT+DRL scheduler:** 3-parameter logistic model + policy gradient learning
+- **Hybrid simpleKT+DRL scheduler:** Transformer-based knowledge tracing + policy gradient learning
 - **Learning gain optimization:** Maximizes expected learning per session (not just engagement)
 - **Student choice modes:** Agency as feature, not afterthought
 - **Feedback quality:** Immediate post-response feedback calibrated to difficulty
@@ -138,7 +138,7 @@ Item delivered → Student responds → New IRT parameters → Loop
 
 **Solution:** Built comprehension-first toolkit that honors language acquisition stages:
 - **Gesture-first feedback:** Students respond with gestures, drawings, or L1 before speaking
-- **Comprehensible input library:** 200+ scaffolded video clips with transcript support
+- **Comprehensible input library:** Scaffolded scenario cards with transcript support
 - **Silent Period assessment:** Formal tools to evaluate comprehension (not speaking) during early stages
 - **Teacher coaching:** Rubrics for gesture interpretation, questioning techniques
 
@@ -161,7 +161,7 @@ Cumulative evidence → When student ready to speak, teacher has confidence they
 **Key Features:**
 - **Gesture response protocol:** Formal rubric for interpreting (and validating) gesture-based responses
 - **L1 integration:** Code-switching encouraged (L1 shows comprehension, not deficiency)
-- **Comprehensible input library:** 200+ curated videos (400+ for Spanish, Mandarin, Vietnamese)
+- **Comprehensible input library:** Curated scenario cards for essential needs (bathroom, water, help, sick)
 - **Teacher coaching:** Silent Period timeline, questioning techniques, common misconceptions
 
 **Research Grounding:**
@@ -186,15 +186,15 @@ Cumulative evidence → When student ready to speak, teacher has confidence they
 
 | Agent | Core Purpose | User | Design Principle |
 |-------|--------------|------|-------------------|
-| **Spiraly** | Adaptive learning scheduler (IRT+DRL) | Students + Teachers | Agency-first (3 modes) |
+| **Spiraly** | Adaptive learning scheduler (simpleKT+DRL) | Students + Teachers | Agency-first (3 modes) |
 | **Norma** | Rubric calibration & rater drift detection | Teachers | Data-informed collaboration |
 | **Langston AI** | Voice-protective writing feedback | Students + Teachers | Preserve authenticity |
 | **Soto** | ELL Silent Period tools & assessment | ELL Students + Teachers | Comprehensible input first |
 | **Delineate** | NGSS alignment & 3-dimension tagging | Teachers | Semantic clarity |
-| **Abacus** | Math curriculum semantic graph (vertical bridges) | Teachers + Curriculum Leaders | Coherent scope sequence |
+| **Abacus** | Math curriculum coherence mapping | Teachers + Curriculum Leaders | Coherent scope sequence |
 | **Reclass** | EL reclassification process (role-gated) | Counselors + Principals | Evidence-based gates |
-| **Exemplarable** | Essay feedback swarm (zero-hallucination rule) | Teachers + Students | Grounded in examples |
-| **Aidstep** | FAFSA crisis response & OCR error decoder | Students + Counselors | Remove friction |
+| **Exemplarable** | Rubric-grounded feedback (anti-hallucination constraint) | Teachers + Students | Grounded in examples |
+| **Aidstep** | FAFSA/CADAA tracking & deadline awareness | Students + Counselors | Remove friction |
 
 ---
 
@@ -301,10 +301,10 @@ interface LearningEvidence {
 ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────────┤
 │              │              │              │              │                  │
 │   Abacus     │   Reclass    │Exemplarable  │   Aidstep    │    +             │
-│   Math       │      EL      │    Essay     │    FAFSA     │  Professional    │
-│ Curriculum   │ Reclassif.   │   Feedback  │   Crisis     │   Development    │
-│   Semantic   │  Process     │    Swarm     │   Response   │   & AI Readiness │
-│   Graph      │  (Role-Gated)│             │              │                  │
+│   Math       │      EL      │   Rubric     │    FAFSA     │  Professional    │
+│ Curriculum   │ Reclassif.   │  Grounded    │   CADAA      │   Development    │
+│ Coherence    │  Process     │  Feedback    │  Tracking    │   & AI Readiness │
+│  Mapping     │  (Role-Gated)│             │              │                  │
 │              │              │              │              │                  │
 └──────────────┴──────────────┴──────────────┴──────────────┴──────────────────┘
 
