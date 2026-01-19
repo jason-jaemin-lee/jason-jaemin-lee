@@ -1,65 +1,32 @@
 # Jason Lee
-**Ex-Educator + AE → AI-Native GTM Engineer** | Adoption & Growth Strategy | Agent Orchestration
+**Cross-Stack Builder: GTM Infrastructure + AI Products + Governance Systems**
+
 [jason-j-lee.com](https://jason-j-lee.com)
 
-*Engineering inter-disciplinary learning workflows to remove friction and enable readiness & adoption*
+---
+
+I build end-to-end: orchestration systems for GTM teams, AI products for end-users, and compliance infrastructure underneath both.
+
+**Technical range:**
+- **GTM Ops:** Vendor intelligence, CRM orchestration, data enrichment (60M rows processed)
+- **AI Products:** 9 production apps with voice-protective UX and adaptive learning
+- **Platform:** 100+ tool orchestration, 20 MCP servers, FERPA-compliant audit systems
+- **Quality:** 62 agents evaluated on 10-dimension rubric, adversarial testing
 
 ---
 
-## 👤 Choose Your Lens
+**Pick your lens:**
 
-### **[📊 GTM & Sales Engineering](./GTM.md)**
-Competitive intel, market research, outreach automation
-- 1000+ California districts profiled
-- 5-agent research swarm for RFI automation
-- 70-90% time savings via ML-optimized prefetching
+→ [GTM & Sales Engineering](./GTM.md) — If you hire for sales ops, partnerships, or market research
 
-### **[🎨 AI Product Design](./PRODUCT.md)**
-9 agent products for educators, UX patterns, domain adaptation
-- Voice-protective writing feedback (Langston AI)
-- Adaptive learning with hybrid IRT+DRL (Spiraly)
-- Zero-hallucination rule (Exemplarable)
+→ [AI Product Design](./PRODUCT.md) — If you hire for product management or AI/UX design
 
-### **[⚙️ System Design & Architecture](./SYSTEMS.md)**
-100+ tool orchestration, data pipelines, multi-tier routing
-- 100+ MCP tools across 20 servers
-- 60M+ rows processed (Data Pipeline)
-- 66ms routing latency
+→ [Systems & Architecture](./SYSTEMS.md) — If you hire for infrastructure, platform, or distributed systems
 
-### **[✅ Evaluation & Testing](./EVALS.md)**
-10-dimension eval framework, 34-point rubric
-- 62 agents scored across 13 tiers
-- 5-dimension Trust Scorecard (TL0-TL4)
-- Adversarial testing with golden fixtures
+→ [Evaluation & Testing](./EVALS.md) — If you hire for QA, ML ops, or testing infrastructure
 
-### **[🔒 Governance & Compliance](./GOVERNANCE.md)** ✅
-FERPA/COPPA, audit trails, trust scoring
-- Trust Scorecard (5 dimensions, TL0-TL4)
-- 7 write gates for memory governance
-- FERPA-compliant audit logging (chain hashing)
+→ [Governance & Compliance](./GOVERNANCE.md) — If you hire for security, compliance, or audit systems
 
 ---
 
-## 🔗 Full Portfolio
-
-See everything at [jason-j-lee.com](https://jason-j-lee.com)
-
----
-
-## 📫 Contact
-
-[jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) | [LinkedIn](https://linkedin.com/in/jason-lee-60537831)
-
----
-
-## 📝 About This Profile
-
-This GitHub profile is organized by hiring lens, not chronology. Each page showcases the same body of work from a different role perspective:
-
-- **Recruiters in sales/partnerships** → Start with GTM
-- **Product managers** → Start with Product
-- **Infrastructure engineers** → Start with Systems
-- **ML ops/QA leads** → Start with Evals
-- **Compliance officers** → Start with Governance
-
-All 5 pages connect to the same underlying systems architecture, but emphasize different value propositions.
+📫 [jsunlee1013@gmail.com](mailto:jsunlee1013@gmail.com) • [LinkedIn](https://linkedin.com/in/jason-lee-60537831)
