@@ -1,14 +1,12 @@
-# Jason Lee - AI Systems Engineer
+# Jason Lee
+**Ex-Educator + AE → AI-Native GTM Engineer** | Adoption & Growth Strategy | Agent Orchestration
+[jason-j-lee.com](https://jason-j-lee.com)
 
-**Non-technical founder → Solo AI builder for K-12 education**
-
-100+ MCP tools • 63 agents • 1000+ districts • FERPA/COPPA compliant
+*Engineering inter-disciplinary learning workflows to remove friction and enable readiness & adoption*
 
 ---
 
 ## 👤 Choose Your Lens
-
-I built the same systems from 5 different angles. Pick the one you care about:
 
 ### **[📊 GTM & Sales Engineering](./GTM.md)**
 Competitive intel, market research, outreach automation
