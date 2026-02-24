@@ -1,6 +1,6 @@
 # Jason Lee
 
-System design and agent orchestration share the core pillars with being a teacher: failure-first planning with context.
+System design & agent orchestration share the core pillars with being a teacher: failure-first planning with context, communication that reduces ambiguity and "we don't have the budget". Turning lesson plans into specs and rubrics into evals only took a pinch of imagination, a willingness to try and years of duct-taped solutions with good intentions.
 
 ---
 
