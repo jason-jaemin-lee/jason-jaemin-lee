@@ -1,6 +1,6 @@
 # Jason Lee
 
-I was a teacher, then I sold edtech, then I started building it. Now I do all three for California K-12 districts. One-person operation. Claude is the entire engineering team.
+System design and agent orchestration share the core pillars with being a teacher: failure-first planning with context.
 
 ---
 
